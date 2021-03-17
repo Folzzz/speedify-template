@@ -1,0 +1,147 @@
+.feature,
+.feature-alt {
+    padding: 3rem 2rem;
+}
+.feature {
+    background-color: #e3e4f6;
+}
+.feature-alt {
+    background-color: #e5ecfc;
+}
+
+/* feature one styles */
+.feature-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature-one-header, .feature-one-text {
+    text-align: center;
+    margin: 0 auto 0.5rem;
+    max-width: 300px;
+}
+
+.feature-one-header {
+    color: #293c5a;
+    font-size: 2rem;
+}
+
+.feature-one-card {
+    padding: 1.5rem 1rem;
+    margin: 1rem 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.feature-one-card > h2 {
+    margin-bottom: 1rem;
+}
+
+.feature-one-card > p {
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 769px) {
+    .feature-one-card-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .feature-one-card:not(:last-child) {
+        margin-right: 1rem;
+    }
+}
+
+/* feature item */
+.feature-item {
+    width: 100%;
+}
+
+.feature-item-img-wrapper {
+    /* width: 50%; */
+    /* max-width: 500px; */
+}
+.feature-item-img-wrapper > img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.feature-item-header {
+    color: #293c5a;
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.feature-item-para {
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 769px) {
+    .feature-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .feature-item-img-wrapper {
+        width: 50%;
+        margin: 0rem 1rem 0rem 0rem;
+    }
+
+    .feature-item-content {
+        width: 50%;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* flex-direction: column; */
+        margin: 0rem 0rem 0rem 1rem;
+    }
+
+    .feature-item-header,
+    .feature-item-para:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+}
+/* feature two */
+
+/* feature-three */
+.feature-three-btn {
+    text-align: center;
+}
+
+.faint-head,
+.faint-text {
+    color:#8695ac;
+}
+.bold-head {
+    color: #12154a;
+    font-size: 2rem;
+}
+.bold-text {
+    font-weight: bold;
+    color: #12154a;
+}
+
+/* feature five */
+.feature-five-img-wrapper {
+    background-image: url('../../img/hotspot-tower.png');
+    background-repeat: no-repeat;
+    background-position: 30rem bottom;
+    /* background-position-x: right; */
+    /* background-position-y: -50px -3rem; */
+    background-origin: border-box;
+    /* background-size: 50px; */
+}
+@media screen and (max-width: 435px) {
+    .feature-five-img-wrapper {
+        background-position: 10rem bottom;
+    }
+}

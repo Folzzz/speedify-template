@@ -1,0 +1,26 @@
+.sponsor-container {
+    background-color: #e3e4f6;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sponsor-text {
+    width: 20%;
+    margin-right: 0.5rem;
+}
+
+.sponsor-img-wrapper {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+.sponsor-img-wrapper > img {
+    margin: 0 0.5rem;
+    width: 150px;
+    object-fit: contain;
+    object-position: center;
+}
